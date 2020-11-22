@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;1,300&display=swap");
+
+* {
+	font-family: "Source Serif Pro", serif;
+}
+
+body {
+	color: rgb(0, 0, 0);
+	padding: 0;
+	margin-top: 2em;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.124);
+}
+
+button {
+	margin: 2em 0;
+	color: salmon;
+	padding: 1em 1.1em;
+	border: none;
+	border-radius: 100%;
+	height: auto;
+	outline: none;
+	font-size: 2em;
+}
+
+.fas {
+	margin-top: 2px;
+	display: flex;
+	justify-content: center;
+}
+
+button:hover {
+	filter: invert(10%) hue-rotate(180deg);
+	cursor: pointer;
+}
+
+#filler {
+	font-style: italic;
+	font-size: 2em;
+}
