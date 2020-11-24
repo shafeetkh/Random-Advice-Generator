@@ -1,5 +1,3 @@
 # Random-Advice-Generator
 
-Random advice quotes generator using the adviceslip API
-
-https://api.adviceslip.com/
+Random advice quotes generator
