@@ -20,5 +20,5 @@ button.addEventListener('click', () => {
     setTimeout(() => {
         getAdvice();
         p.innerText = advice;
-    }, 600);
+    }, 100);
 });
